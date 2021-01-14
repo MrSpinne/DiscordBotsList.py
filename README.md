@@ -93,7 +93,7 @@ dbl = DBLClient(bot, api_key)
 
 @bot.event
 async def on_ready():
-    likes = dbl.get_likes()
+    likes = await dbl.get_likes()
     for like in likes:
         print(like.author)
         
