@@ -1,4 +1,7 @@
 # DiscordBotsList.py
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7b97ef7307d44f7285935ee1c6f336aa)](https://app.codacy.com/gh/MrSpinne/DiscordBotsList.py?utm_source=github.com&utm_medium=referral&utm_content=MrSpinne/DiscordBotsList.py&utm_campaign=Badge_Grade_Settings)
+
 An API wrapper for discordbotslist.us.to written in Python
 
 
