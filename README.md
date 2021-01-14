@@ -4,31 +4,29 @@
 
 An API wrapper for discordbotslist.us.to written in Python
 
-
 ## Installation
 Install via pip
 
     pip install dbl-us-to
 
 ## Features
-
-- GET bot likes and check if user has liked
-- GET bot comments
-- GET bot stats
-- POST your own bot stats
+  - GET bot likes and check if user has liked
+  - GET bot comments
+  - GET bot stats
+  - POST your own bot stats
 
 ## Methods
 In the following I'll be explaining all methods this library offers.
 Notice that you have to await these since they are async.
 
 ### DBLClient.get_likes(bot_id)
-#### Arguments
+**Arguments**
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
 | bot_id    | int  | The bot id to get the likes of. Defaults to your own bot id.
 
-#### Returns
+**Returns**
 List of `Like` objects. These have the following attributes.
 
 | Attributes | Type            | Description |
@@ -39,13 +37,13 @@ List of `Like` objects. These have the following attributes.
 | date       | datetime.datime | When the like was created
 
 ### DBLClient.get_comments(bot_id)
-#### Arguments
+**Arguments**
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
 | bot_id    | int  | The bot id to get the comments of. Defaults to your own bot id.
 
-#### Returns
+**Returns**
 List of `Comment` objects. These have the following attributes.
 
 | Attributes | Type            | Description |
@@ -58,13 +56,13 @@ List of `Comment` objects. These have the following attributes.
 | date       | datetime.datime | When the comment was created
 
 ### DBLClient.get_stats(bot_id)
-#### Arguments
+**Arguments**
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
 | bot_id    | int  | The bot id to get the stats of. Defaults to your own bot id.
 
-#### Returns
+**Returns**
 `Stats` object. These have the following attributes.
 
 | Attributes  | Type            | Description |
