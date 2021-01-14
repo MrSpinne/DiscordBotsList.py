@@ -73,7 +73,7 @@ List of `Comment` objects. These have the following attributes.
 | user_count | int             | The amount of all users the bot can see
 | date        | datetime.datime | When the stats was last updated
 
-## DBLClient.post_stats()
+### DBLClient.post_stats()
 Updates your bots stats on DiscordBotsList.us.to
 
 ## Example
