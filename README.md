@@ -10,10 +10,10 @@ Install via pip
     pip install dbl-us-to
 
 ## Features
-  - GET bot likes and check if user has liked
-  - GET bot comments
-  - GET bot stats
-  - POST your own bot stats
+- GET bot likes and check if user has liked
+- GET bot comments
+- GET bot stats
+- POST your own bot stats
 
 ## Methods
 In the following I'll be explaining all methods this library offers.
